@@ -33,6 +33,7 @@ export const profile = {
   languages: 'Spanish (native) · English (C1)',
   github: 'https://github.com/luisflorescvz01',
   linkedin: 'https://www.linkedin.com/in/luis-flores-42b586278/',
+  sourceRepo: 'https://github.com/luisflorescvz01/PersonalPortfolio',
 }
 
 export type Skill = {

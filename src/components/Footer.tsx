@@ -5,7 +5,10 @@ function Footer() {
     <footer className="footer">
       <p>
         © {new Date().getFullYear()} {profile.name} · Built with React &
-        TypeScript
+        TypeScript ·{' '}
+        <a href={profile.sourceRepo} target="_blank" rel="noreferrer">
+          View source
+        </a>
       </p>
     </footer>
   )
