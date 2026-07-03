@@ -122,7 +122,7 @@ export const projects: Project[] = [
       { name: 'Firebase', icon: devicon('firebase') },
       { name: 'JavaScript', icon: devicon('javascript') },
     ],
-    repoUrl: 'https://github.com/your-username/flores-travel-agency', // TODO
+    repoUrl: 'https://github.com/luisflorescvz01/FloresTravelAgency', // TODO
   },
   {
     title: 'Graphic Design Student Portfolio',
