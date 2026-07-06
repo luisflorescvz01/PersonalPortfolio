@@ -105,6 +105,36 @@
   margin: 0 0 16px;
 }
 
+.about-subsection {
+  margin-bottom: 28px;
+}
+
+.about-subheading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.05rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 14px;
+}
+
+/* Short accent rule after the subheading text */
+.about-subheading::after {
+  content: '';
+  height: 1px;
+  width: 64px;
+  background: var(--accent);
+  opacity: 0.5;
+}
+
+.about-closing {
+  color: var(--text);
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
 .about-location {
   color: var(--text);
 }
