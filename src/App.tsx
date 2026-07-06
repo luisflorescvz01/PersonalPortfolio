@@ -1,4 +1,5 @@
 import SectionIndicator from './components/SectionIndicator'
+import ScrollProgress from './components/ScrollProgress'
 import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
@@ -10,6 +11,7 @@ import './App.css'
 function App() {
   return (
     <>
+      <ScrollProgress />
       <SectionIndicator />
       <main className="container">
         <Hero />
