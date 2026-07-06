@@ -135,6 +135,7 @@ export const projects: Project[] = [
       { name: 'scikit-learn', icon: devicon('scikitlearn') },
       { name: 'Machine Learning' },
     ],
+    liveUrl: 'https://luisflorescvz01.github.io/WarrantyClaims_Model/',
     repoUrl: 'https://github.com/luisflorescvz01/WarrantyClaims_Model',
   },
 ]
