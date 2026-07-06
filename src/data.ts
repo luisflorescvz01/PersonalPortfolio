@@ -123,6 +123,7 @@ export const projects: Project[] = [
       { name: 'HTML & CSS', icon: devicon('html5') },
       { name: 'Responsive Design' },
     ],
+    liveUrl: 'https://luisflorescvz01.github.io/AstridSigristPortfolio/',
     repoUrl: 'https://github.com/luisflorescvz01/AstridSigristPortfolio',
   },
   {
