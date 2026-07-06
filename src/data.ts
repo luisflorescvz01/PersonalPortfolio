@@ -103,17 +103,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: 'Inventory Management System',
-    description:
-      'Inventory management system that handles product registration and real-time tracking of items inside a refrigerator, built with React, Supabase, and a custom API.',
-    tech: [
-      { name: 'React', icon: devicon('react') },
-      { name: 'Supabase', icon: devicon('supabase') },
-      { name: 'REST API' },
-    ],
-    repoUrl: 'https://github.com/your-username/inventory-system', // TODO
-  },
-  {
     title: 'Flores Travel Agency',
     description:
       'A travel agency web application for browsing destinations and managing bookings. Built as a React single-page app with a Firebase backend and a localStorage fallback for offline development.',
@@ -122,28 +111,29 @@ export const projects: Project[] = [
       { name: 'Firebase', icon: devicon('firebase') },
       { name: 'JavaScript', icon: devicon('javascript') },
     ],
-    repoUrl: 'https://github.com/luisflorescvz01/FloresTravelAgency', // TODO
+    liveUrl: 'https://florestravelagency-4245e.web.app/',
+    repoUrl: 'https://github.com/luisflorescvz01/FloresTravelAgency',
   },
   {
     title: 'Graphic Design Student Portfolio',
     description:
-      'A portfolio website for a graphic design student, focused on front-end architecture, UI implementation, and responsive design.',
+      'A portfolio website built in React for a graphic design student, presenting her work in a clean visual showcase. Focused on front-end architecture and a responsive UI that adapts from desktop to mobile.',
     tech: [
       { name: 'React', icon: devicon('react') },
       { name: 'HTML & CSS', icon: devicon('html5') },
       { name: 'Responsive Design' },
     ],
-    repoUrl: 'https://github.com/your-username/design-portfolio', // TODO
+    repoUrl: 'https://github.com/luisflorescvz01/AstridSigristPortfolio',
   },
   {
-    title: 'Predictive Modeling with Python',
+    title: 'Warranty Claims Fraud Model',
     description:
-      'Processed CSV datasets in Python to build predictive models using linear and multiple regression, and organized the data into dimensions with Power BI for analysis and reporting.',
+      'Machine learning pipeline that flags invalid vehicle warranty claims, with a cost-tuned decision threshold — catches 63% of invalid claims reviewing only 27% of volume, cutting estimated costs by 67%.',
     tech: [
       { name: 'Python', icon: devicon('python') },
-      { name: 'Power BI' },
-      { name: 'Data Analysis' },
+      { name: 'scikit-learn', icon: devicon('scikitlearn') },
+      { name: 'Machine Learning' },
     ],
-    repoUrl: 'https://github.com/your-username/predictive-models', // TODO
+    repoUrl: 'https://github.com/luisflorescvz01/WarrantyClaims_Model',
   },
 ]
