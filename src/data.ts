@@ -3,6 +3,11 @@
 // Everything the site displays lives here.
 // ============================================================
 
+export type AboutSection = {
+  heading: string
+  paragraphs: string[]
+}
+
 export const profile = {
   name: 'Luis Flores',
   fullName: 'Luis Alberto Flores Cavazos',
@@ -13,30 +18,18 @@ export const profile = {
     {
       heading: 'Profile',
       paragraphs: [
-        `I'm a software engineer from Tampico, Mexico, with a Bachelor's degree
-         in Software Engineering from IEST Anáhuac (Class of 2025). I work
-         across the stack: building responsive interfaces with React and
-         TypeScript, writing Python and SQL for automation and data, and
-         shipping on cloud platforms like Firebase and Supabase.`,
+        `I'm a software engineer from Tampico, Mexico, with a Bachelor's degree in Software Engineering from IEST Anáhuac (Class of 2025). I work across the stack: building responsive interfaces with React and TypeScript, writing Python and SQL for automation and data, and shipping on cloud platforms like Firebase and Supabase.`,
       ],
     },
     {
       heading: 'Experience',
       paragraphs: [
-        `I've already put that to work in industry. As an IT assistant at Carnes
-         Victoria, I automated server backups with Python and SQL scripts —
-         cutting manual effort by 20% and improving reliability — and managed
-         B2B sales orders end to end in the company's ERP, coordinating with
-         Logistics and Finance to keep pricing, taxes, and inventory accurate.`,
-        `My range goes beyond the web: I've built predictive models from raw CSV
-         data with Python, developed iOS interfaces in SwiftUI, and turned
-         datasets into Power BI dashboards. I work in Scrum teams, learn new
-         tools quickly, and communicate clearly in Spanish and English (C1).`,
+        `I've already put that to work in industry. As an IT assistant at Carnes Victoria, I automated server backups with Python and SQL scripts — cutting manual effort by 20% and improving reliability — and managed B2B sales orders end to end in the company's ERP, coordinating with Logistics and Finance to keep pricing, taxes, and inventory accurate.`,
+        `My range goes beyond the web: I've built predictive models from raw CSV data with Python, developed iOS interfaces in SwiftUI, and turned datasets into Power BI dashboards. I work in Scrum teams, learn new tools quickly, and communicate clearly in Spanish and English (C1).`,
       ],
     },
-  ],
-  aboutClosing: `I'm currently open to software engineering roles where I can
-     ship products that matter. If that sounds like your team, let's talk.`,
+  ] as AboutSection[],
+  aboutClosing: `I'm currently open to software engineering roles where I can ship products that matter. If that sounds like your team, let's talk.`,
   email: 'luisflcvz01@gmail.com',
   phone: '+52 833 104 6049',
   location: 'Tampico, Mexico',

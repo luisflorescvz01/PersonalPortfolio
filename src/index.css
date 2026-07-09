@@ -5,11 +5,31 @@
   --text: #e6edf3;
   --text-muted: #8b949e;
   --accent: #4cc9a4;
+  --accent-rgb: 76, 201, 164;
   --accent-soft: rgba(76, 201, 164, 0.12);
+  --accent-hover: #63dcb8;
+  --on-accent: #0d1117;
+  --surface-translucent: rgba(22, 27, 34, 0.85);
 
   color-scheme: dark;
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   line-height: 1.6;
+}
+
+[data-theme='light'] {
+  --bg: #f6f8fa;
+  --bg-elevated: #ffffff;
+  --border: #d0d7de;
+  --text: #1f2328;
+  --text-muted: #57606a;
+  --accent: #0e8262;
+  --accent-rgb: 14, 130, 98;
+  --accent-soft: rgba(14, 130, 98, 0.12);
+  --accent-hover: #0a6b50;
+  --on-accent: #ffffff;
+  --surface-translucent: rgba(255, 255, 255, 0.85);
+
+  color-scheme: light;
 }
 
 * {
@@ -25,6 +45,7 @@ body {
   background-color: var(--bg);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* ---------- Hide the native scrollbar; the ScrollProgress line
@@ -55,7 +76,7 @@ html {
   background: var(--accent);
   transform-origin: top;
   transform: scaleY(0);
-  box-shadow: 0 0 8px rgba(76, 201, 164, 0.6);
+  box-shadow: 0 0 8px rgba(var(--accent-rgb), 0.6);
 }
 
 a {
