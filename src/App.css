@@ -249,6 +249,53 @@
   font-size: 0.9rem;
 }
 
+/* ---------- Résumé ---------- */
+.resume-viewer {
+  border: 1px solid rgba(var(--accent-rgb), 0.4);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow:
+    0 0 10px rgba(var(--accent-rgb), 0.12),
+    inset 0 0 12px rgba(var(--accent-rgb), 0.05);
+  background: var(--bg-elevated);
+}
+
+.resume-frame {
+  display: block;
+  width: 100%;
+  height: min(80vh, 1000px);
+  border: 0;
+}
+
+.resume-fallback {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 16px 0 20px;
+  display: none;
+}
+
+.resume-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+/* Mobile browsers rarely render PDFs inline — swap the embed for buttons */
+@media (max-width: 640px) {
+  .resume-viewer {
+    display: none;
+  }
+
+  .resume-fallback {
+    display: block;
+  }
+
+  .resume-actions {
+    margin-top: 0;
+  }
+}
+
 /* ---------- Contact ---------- */
 .contact-section {
   text-align: center;

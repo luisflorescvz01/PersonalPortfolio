@@ -14,6 +14,9 @@ function Hero() {
         <a className="btn btn-outline" href="#contact">
           Get in touch
         </a>
+        <a className="btn btn-outline" href="#resume">
+          View résumé
+        </a>
       </div>
     </section>
   )

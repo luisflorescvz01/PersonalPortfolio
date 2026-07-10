@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section id="contact" className="section contact-section">
       <h2 className="section-title">
-        <span className="accent">04.</span> Contact
+        <span className="accent">05.</span> Contact
       </h2>
       <p className="contact-blurb">
         I'm currently open to new opportunities. Whether you have a role in

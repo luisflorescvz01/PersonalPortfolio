@@ -34,6 +34,8 @@ export const profile = {
   phone: '+52 833 104 6049',
   location: 'Tampico, Mexico',
   languages: 'Spanish (native) · English (C1)',
+  // Served from public/; BASE_URL keeps the path correct on GitHub Pages
+  resumeUrl: `${import.meta.env.BASE_URL}Luis-Flores-Resume.pdf`,
   github: 'https://github.com/luisflorescvz01',
   linkedin: 'https://www.linkedin.com/in/luis-flores-42b586278/',
   sourceRepo: 'https://github.com/luisflorescvz01/PersonalPortfolio',
